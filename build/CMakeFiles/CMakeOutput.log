@@ -1,0 +1,463 @@
+The system is: Linux - 5.4.0-128-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/data/haisheng.liu/diagtool/build/CMakeFiles/3.15.5/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/data/haisheng.liu/diagtool/build/CMakeFiles/3.15.5/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_91860/fast && /usr/bin/make -f CMakeFiles/cmTC_91860.dir/build.make CMakeFiles/cmTC_91860.dir/build
+make[1]: 进入目录“/data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_91860.dir/testCCompiler.c.o
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc    -o CMakeFiles/cmTC_91860.dir/testCCompiler.c.o   -c /data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_91860
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91860.dir/link.txt --verbose=1
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc      CMakeFiles/cmTC_91860.dir/testCCompiler.c.o  -o cmTC_91860 
+make[1]: 离开目录“/data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp”
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d02cc/fast && /usr/bin/make -f CMakeFiles/cmTC_d02cc.dir/build.make CMakeFiles/cmTC_d02cc.dir/build
+make[1]: Entering directory '/data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc   -v -o CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o   -c /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc.br_real
+Target: aarch64-buildroot-linux-gnu
+Configured with: ./configure --prefix=/tmp/bgw_build/output/host --sysconfdir=/tmp/bgw_build/output/host/etc --enable-static --target=aarch64-buildroot-linux-gnu --with-sysroot=/tmp/bgw_build/output/host/aarch64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/tmp/bgw_build/output/host --with-mpc=/tmp/bgw_build/output/host --with-mpfr=/tmp/bgw_build/output/host --with-pkgversion='Buildroot 2020.05-00004-g648c0255' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a35 --enable-languages=c,c++ --with-build-time-tools=/tmp/bgw_build/output/host/aarch64-buildroot-linux-gnu/bin --enable-shared --disable-libgomp
+Thread model: posix
+gcc version 8.4.0 (Buildroot 2020.05-00004-g648c0255) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64'
+ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/cc1 -quiet -v -iprefix /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/ -isysroot /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/share/cmake-3.15/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-a35 -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccGg357p.s
+GNU C17 (Buildroot 2020.05-00004-g648c0255) version 8.4.0 (aarch64-buildroot-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include"
+ignoring nonexistent directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/local/include"
+ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include-fixed"
+ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include
+ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include-fixed
+ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include
+ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C17 (Buildroot 2020.05-00004-g648c0255) version 8.4.0 (aarch64-buildroot-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: fb7a5482b84b2702252e4f9d2cb61600
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64'
+ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o /tmp/ccGg357p.s
+GNU assembler version 2.32 (aarch64-buildroot-linux-gnu) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/bin/
+LIBRARY_PATH=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64'
+Linking C executable cmTC_d02cc
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d02cc.dir/link.txt --verbose=1
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc     -v CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o  -o cmTC_d02cc 
+Using built-in specs.
+COLLECT_GCC=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc.br_real
+COLLECT_LTO_WRAPPER=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/lto-wrapper
+Target: aarch64-buildroot-linux-gnu
+Configured with: ./configure --prefix=/tmp/bgw_build/output/host --sysconfdir=/tmp/bgw_build/output/host/etc --enable-static --target=aarch64-buildroot-linux-gnu --with-sysroot=/tmp/bgw_build/output/host/aarch64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/tmp/bgw_build/output/host --with-mpc=/tmp/bgw_build/output/host --with-mpfr=/tmp/bgw_build/output/host --with-pkgversion='Buildroot 2020.05-00004-g648c0255' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a35 --enable-languages=c,c++ --with-build-time-tools=/tmp/bgw_build/output/host/aarch64-buildroot-linux-gnu/bin --enable-shared --disable-libgomp
+Thread model: posix
+gcc version 8.4.0 (Buildroot 2020.05-00004-g648c0255) 
+COMPILER_PATH=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/bin/
+LIBRARY_PATH=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d02cc' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64'
+ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/collect2 -plugin /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/liblto_plugin.so -plugin-opt=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9B47YT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_d02cc /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crt1.o /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crti.o /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/crtbegin.o -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0 -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64 -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/crtend.o /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d02cc' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64'
+make[1]: Leaving directory '/data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include]
+    add: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include-fixed]
+    add: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include]
+    add: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include]
+  collapse include dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include-fixed] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include-fixed]
+  collapse include dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/include]
+  collapse include dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include-fixed;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/include;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_d02cc/fast && /usr/bin/make -f CMakeFiles/cmTC_d02cc.dir/build.make CMakeFiles/cmTC_d02cc.dir/build]
+  ignore line: [make[1]: Entering directory '/data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc   -v -o CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o   -c /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc.br_real]
+  ignore line: [Target: aarch64-buildroot-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/tmp/bgw_build/output/host --sysconfdir=/tmp/bgw_build/output/host/etc --enable-static --target=aarch64-buildroot-linux-gnu --with-sysroot=/tmp/bgw_build/output/host/aarch64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/tmp/bgw_build/output/host --with-mpc=/tmp/bgw_build/output/host --with-mpfr=/tmp/bgw_build/output/host --with-pkgversion='Buildroot 2020.05-00004-g648c0255' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a35 --enable-languages=c,c++ --with-build-time-tools=/tmp/bgw_build/output/host/aarch64-buildroot-linux-gnu/bin --enable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.4.0 (Buildroot 2020.05-00004-g648c0255) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/cc1 -quiet -v -iprefix /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/ -isysroot /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/share/cmake-3.15/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-a35 -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccGg357p.s]
+  ignore line: [GNU C17 (Buildroot 2020.05-00004-g648c0255) version 8.4.0 (aarch64-buildroot-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include"]
+  ignore line: [ignoring nonexistent directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include]
+  ignore line: [ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include-fixed]
+  ignore line: [ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include]
+  ignore line: [ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Buildroot 2020.05-00004-g648c0255) version 8.4.0 (aarch64-buildroot-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: fb7a5482b84b2702252e4f9d2cb61600]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o /tmp/ccGg357p.s]
+  ignore line: [GNU assembler version 2.32 (aarch64-buildroot-linux-gnu) using BFD version (GNU Binutils) 2.32]
+  ignore line: [COMPILER_PATH=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking C executable cmTC_d02cc]
+  ignore line: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d02cc.dir/link.txt --verbose=1]
+  ignore line: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc     -v CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o  -o cmTC_d02cc ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/lto-wrapper]
+  ignore line: [Target: aarch64-buildroot-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/tmp/bgw_build/output/host --sysconfdir=/tmp/bgw_build/output/host/etc --enable-static --target=aarch64-buildroot-linux-gnu --with-sysroot=/tmp/bgw_build/output/host/aarch64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/tmp/bgw_build/output/host --with-mpc=/tmp/bgw_build/output/host --with-mpfr=/tmp/bgw_build/output/host --with-pkgversion='Buildroot 2020.05-00004-g648c0255' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a35 --enable-languages=c,c++ --with-build-time-tools=/tmp/bgw_build/output/host/aarch64-buildroot-linux-gnu/bin --enable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.4.0 (Buildroot 2020.05-00004-g648c0255) ]
+  ignore line: [COMPILER_PATH=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d02cc' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/collect2 -plugin /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/liblto_plugin.so -plugin-opt=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9B47YT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_d02cc /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crt1.o /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crti.o /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/crtbegin.o -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0 -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64 -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/crtend.o /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crtn.o]
+    arg [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc9B47YT.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d02cc] ==> ignore
+    arg [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crt1.o] ==> ignore
+    arg [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crti.o] ==> ignore
+    arg [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/crtbegin.o] ==> ignore
+    arg [-L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0] ==> dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0]
+    arg [-L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc] ==> dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc]
+    arg [-L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64] ==> dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64]
+    arg [-L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64] ==> dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64]
+    arg [-L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64]
+    arg [-L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib] ==> dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib]
+    arg [-L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib] ==> dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib]
+    arg [-L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib] ==> dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_d02cc.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/crtend.o] ==> ignore
+    arg [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/lib/gcc/aarch64-buildroot-linux-gnu/8.4.0]
+  collapse library dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/lib/gcc]
+  collapse library dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/lib64]
+  collapse library dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib64]
+  collapse library dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib64]
+  collapse library dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/lib]
+  collapse library dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib]
+  collapse library dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/lib/gcc/aarch64-buildroot-linux-gnu/8.4.0;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/lib/gcc;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/lib64;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib64;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib64;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/lib;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1903e/fast && /usr/bin/make -f CMakeFiles/cmTC_1903e.dir/build.make CMakeFiles/cmTC_1903e.dir/build
+make[1]: 进入目录“/data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_1903e.dir/testCXXCompiler.cxx.o
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-g++     -o CMakeFiles/cmTC_1903e.dir/testCXXCompiler.cxx.o -c /data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1903e
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1903e.dir/link.txt --verbose=1
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-g++       CMakeFiles/cmTC_1903e.dir/testCXXCompiler.cxx.o  -o cmTC_1903e 
+make[1]: 离开目录“/data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp”
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2e630/fast && /usr/bin/make -f CMakeFiles/cmTC_2e630.dir/build.make CMakeFiles/cmTC_2e630.dir/build
+make[1]: Entering directory '/data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-g++    -v -o CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o -c /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-g++.br_real
+Target: aarch64-buildroot-linux-gnu
+Configured with: ./configure --prefix=/tmp/bgw_build/output/host --sysconfdir=/tmp/bgw_build/output/host/etc --enable-static --target=aarch64-buildroot-linux-gnu --with-sysroot=/tmp/bgw_build/output/host/aarch64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/tmp/bgw_build/output/host --with-mpc=/tmp/bgw_build/output/host --with-mpfr=/tmp/bgw_build/output/host --with-pkgversion='Buildroot 2020.05-00004-g648c0255' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a35 --enable-languages=c,c++ --with-build-time-tools=/tmp/bgw_build/output/host/aarch64-buildroot-linux-gnu/bin --enable-shared --disable-libgomp
+Thread model: posix
+gcc version 8.4.0 (Buildroot 2020.05-00004-g648c0255) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64'
+ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/cc1plus -quiet -v -iprefix /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/ -isysroot /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot -D_GNU_SOURCE /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-a35 -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccaVqs4q.s
+GNU C++14 (Buildroot 2020.05-00004-g648c0255) version 8.4.0 (aarch64-buildroot-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0"
+ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0/aarch64-buildroot-linux-gnu"
+ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0/backward"
+ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include"
+ignoring nonexistent directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/local/include"
+ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include-fixed"
+ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0
+ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0/aarch64-buildroot-linux-gnu
+ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0/backward
+ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include
+ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include-fixed
+ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include
+ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C++14 (Buildroot 2020.05-00004-g648c0255) version 8.4.0 (aarch64-buildroot-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: c066024350ab63096f0feca4a6d0e2c4
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64'
+ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccaVqs4q.s
+GNU assembler version 2.32 (aarch64-buildroot-linux-gnu) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/bin/
+LIBRARY_PATH=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64'
+Linking CXX executable cmTC_2e630
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e630.dir/link.txt --verbose=1
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-g++      -v CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2e630 
+Using built-in specs.
+COLLECT_GCC=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-g++.br_real
+COLLECT_LTO_WRAPPER=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/lto-wrapper
+Target: aarch64-buildroot-linux-gnu
+Configured with: ./configure --prefix=/tmp/bgw_build/output/host --sysconfdir=/tmp/bgw_build/output/host/etc --enable-static --target=aarch64-buildroot-linux-gnu --with-sysroot=/tmp/bgw_build/output/host/aarch64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/tmp/bgw_build/output/host --with-mpc=/tmp/bgw_build/output/host --with-mpfr=/tmp/bgw_build/output/host --with-pkgversion='Buildroot 2020.05-00004-g648c0255' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a35 --enable-languages=c,c++ --with-build-time-tools=/tmp/bgw_build/output/host/aarch64-buildroot-linux-gnu/bin --enable-shared --disable-libgomp
+Thread model: posix
+gcc version 8.4.0 (Buildroot 2020.05-00004-g648c0255) 
+COMPILER_PATH=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/bin/
+LIBRARY_PATH=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2e630' '-shared-libgcc' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64'
+ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/collect2 -plugin /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/liblto_plugin.so -plugin-opt=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfNN7pR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_2e630 /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crt1.o /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crti.o /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/crtbegin.o -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0 -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64 -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/crtend.o /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2e630' '-shared-libgcc' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64'
+make[1]: Leaving directory '/data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0]
+    add: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0/aarch64-buildroot-linux-gnu]
+    add: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0/backward]
+    add: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include]
+    add: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include-fixed]
+    add: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include]
+    add: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/include/c++/8.4.0]
+  collapse include dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0/aarch64-buildroot-linux-gnu] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/include/c++/8.4.0/aarch64-buildroot-linux-gnu]
+  collapse include dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0/backward] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/include/c++/8.4.0/backward]
+  collapse include dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include]
+  collapse include dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include-fixed] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include-fixed]
+  collapse include dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/include]
+  collapse include dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/include/c++/8.4.0;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/include/c++/8.4.0/aarch64-buildroot-linux-gnu;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/include/c++/8.4.0/backward;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include-fixed;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/include;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_2e630/fast && /usr/bin/make -f CMakeFiles/cmTC_2e630.dir/build.make CMakeFiles/cmTC_2e630.dir/build]
+  ignore line: [make[1]: Entering directory '/data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-g++    -v -o CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o -c /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-g++.br_real]
+  ignore line: [Target: aarch64-buildroot-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/tmp/bgw_build/output/host --sysconfdir=/tmp/bgw_build/output/host/etc --enable-static --target=aarch64-buildroot-linux-gnu --with-sysroot=/tmp/bgw_build/output/host/aarch64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/tmp/bgw_build/output/host --with-mpc=/tmp/bgw_build/output/host --with-mpfr=/tmp/bgw_build/output/host --with-pkgversion='Buildroot 2020.05-00004-g648c0255' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a35 --enable-languages=c,c++ --with-build-time-tools=/tmp/bgw_build/output/host/aarch64-buildroot-linux-gnu/bin --enable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.4.0 (Buildroot 2020.05-00004-g648c0255) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/cc1plus -quiet -v -iprefix /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/ -isysroot /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot -D_GNU_SOURCE /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-a35 -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccaVqs4q.s]
+  ignore line: [GNU C++14 (Buildroot 2020.05-00004-g648c0255) version 8.4.0 (aarch64-buildroot-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0"]
+  ignore line: [ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0/aarch64-buildroot-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0/backward"]
+  ignore line: [ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include"]
+  ignore line: [ignoring nonexistent directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0]
+  ignore line: [ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0/aarch64-buildroot-linux-gnu]
+  ignore line: [ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include/c++/8.4.0/backward]
+  ignore line: [ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include]
+  ignore line: [ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/include-fixed]
+  ignore line: [ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/include]
+  ignore line: [ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Buildroot 2020.05-00004-g648c0255) version 8.4.0 (aarch64-buildroot-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: c066024350ab63096f0feca4a6d0e2c4]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccaVqs4q.s]
+  ignore line: [GNU assembler version 2.32 (aarch64-buildroot-linux-gnu) using BFD version (GNU Binutils) 2.32]
+  ignore line: [COMPILER_PATH=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking CXX executable cmTC_2e630]
+  ignore line: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e630.dir/link.txt --verbose=1]
+  ignore line: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-g++      -v CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2e630 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-g++.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/lto-wrapper]
+  ignore line: [Target: aarch64-buildroot-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/tmp/bgw_build/output/host --sysconfdir=/tmp/bgw_build/output/host/etc --enable-static --target=aarch64-buildroot-linux-gnu --with-sysroot=/tmp/bgw_build/output/host/aarch64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/tmp/bgw_build/output/host --with-mpc=/tmp/bgw_build/output/host --with-mpfr=/tmp/bgw_build/output/host --with-pkgversion='Buildroot 2020.05-00004-g648c0255' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --enable-threads --without-isl --without-cloog --with-abi=lp64 --with-cpu=cortex-a35 --enable-languages=c,c++ --with-build-time-tools=/tmp/bgw_build/output/host/aarch64-buildroot-linux-gnu/bin --enable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.4.0 (Buildroot 2020.05-00004-g648c0255) ]
+  ignore line: [COMPILER_PATH=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/:/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2e630' '-shared-libgcc' '-mcpu=cortex-a35' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/collect2 -plugin /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/liblto_plugin.so -plugin-opt=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfNN7pR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_2e630 /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crt1.o /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crti.o /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/crtbegin.o -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0 -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64 -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib -L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/crtend.o /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crtn.o]
+    arg [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/8.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfNN7pR.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2e630] ==> ignore
+    arg [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crt1.o] ==> ignore
+    arg [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crti.o] ==> ignore
+    arg [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/crtbegin.o] ==> ignore
+    arg [-L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0] ==> dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0]
+    arg [-L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc] ==> dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc]
+    arg [-L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64] ==> dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64]
+    arg [-L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64] ==> dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64]
+    arg [-L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64]
+    arg [-L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib] ==> dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib]
+    arg [-L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib] ==> dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib]
+    arg [-L/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib] ==> dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_2e630.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/crtend.o] ==> ignore
+    arg [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/lib/gcc/aarch64-buildroot-linux-gnu/8.4.0]
+  collapse library dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/lib/gcc]
+  collapse library dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/lib64]
+  collapse library dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib64]
+  collapse library dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib64]
+  collapse library dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/../lib/gcc/aarch64-buildroot-linux-gnu/8.4.0/../../../../aarch64-buildroot-linux-gnu/lib] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/lib]
+  collapse library dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib]
+  collapse library dir [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib] ==> [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/lib/gcc/aarch64-buildroot-linux-gnu/8.4.0;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/lib/gcc;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/lib64;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib64;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib64;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/lib;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/lib;/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/aarch64-buildroot-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d743a/fast && /usr/bin/make -f CMakeFiles/cmTC_d743a.dir/build.make CMakeFiles/cmTC_d743a.dir/build
+make[1]: 进入目录“/data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d743a.dir/CheckIncludeFile.c.o
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc    -o CMakeFiles/cmTC_d743a.dir/CheckIncludeFile.c.o   -c /data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d743a
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d743a.dir/link.txt --verbose=1
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc      CMakeFiles/cmTC_d743a.dir/CheckIncludeFile.c.o  -o cmTC_d743a 
+make[1]: 离开目录“/data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_86b5b/fast && /usr/bin/make -f CMakeFiles/cmTC_86b5b.dir/build.make CMakeFiles/cmTC_86b5b.dir/build
+make[1]: 进入目录“/data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_86b5b.dir/CheckFunctionExists.c.o
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_86b5b.dir/CheckFunctionExists.c.o   -c /data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_86b5b
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86b5b.dir/link.txt --verbose=1
+/data/haisheng.liu/host/bgw-sdk/aarch64-buildroot-linux-gnu_sdk-buildroot/bin/aarch64-buildroot-linux-gnu-gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_86b5b.dir/CheckFunctionExists.c.o  -o cmTC_86b5b -lpthread 
+make[1]: 离开目录“/data/haisheng.liu/diagtool/build/CMakeFiles/CMakeTmp”
+
+
+

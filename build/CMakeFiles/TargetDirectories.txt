@@ -1,0 +1,8 @@
+/data/haisheng.liu/diagtool/build/CMakeFiles/install/strip.dir
+/data/haisheng.liu/diagtool/build/CMakeFiles/install/local.dir
+/data/haisheng.liu/diagtool/build/CMakeFiles/edit_cache.dir
+/data/haisheng.liu/diagtool/build/CMakeFiles/udsclient_static.dir
+/data/haisheng.liu/diagtool/build/CMakeFiles/install.dir
+/data/haisheng.liu/diagtool/build/CMakeFiles/list_install_components.dir
+/data/haisheng.liu/diagtool/build/CMakeFiles/rebuild_cache.dir
+/data/haisheng.liu/diagtool/build/CMakeFiles/udsclient.dir

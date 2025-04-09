@@ -1,0 +1,2 @@
+/usr/bin/ar qc libudsclient.a  CMakeFiles/udsclient_static.dir/src/DiagClient.cpp.o CMakeFiles/udsclient_static.dir/src/DoipClient.cpp.o CMakeFiles/udsclient_static.dir/src/DoipHead.cpp.o CMakeFiles/udsclient_static.dir/src/DoipPayload.cpp.o CMakeFiles/udsclient_static.dir/src/TcpClient.cpp.o CMakeFiles/udsclient_static.dir/src/main.cpp.o
+/usr/bin/ranlib libudsclient.a
